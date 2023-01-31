@@ -46,7 +46,7 @@ export default function App() {
           <MapViewDirections
     origin={origin}
     destination={destination}
-    apikey={'AIzaSyA4Boz6MlZM8M9rObU5RuKjhVwOsT1XETU'}
+    apikey={'YOUR KEY'}
     strokeWidth={3}
     onReady={result => {
       setDistance(result.distance);
@@ -71,7 +71,7 @@ export default function App() {
                 });
         }}
         query={{
-          key: 'AIzaSyCwwkBJQJGz7Ad7mU-r3YVFnwv-e_JGjQU',
+          key: 'YOUR KEY',
           language: 'pt-br',
         }} 
         enablePoweredByContainer={false}
